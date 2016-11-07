@@ -23,4 +23,4 @@ $ ./setup.sh
 $ devlab start
 ````
 
-[Painless Local Development](https://github.com/painless-local-development) | 2016
+Another PoC from [Painless Local Development](https://github.com/painless-local-development) | 2016
