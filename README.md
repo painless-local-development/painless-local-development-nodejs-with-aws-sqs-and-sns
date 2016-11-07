@@ -4,6 +4,7 @@ A minimalistic repo to show how to locally develop with AWS SQS and SNS in Node.
 
 ## Requirements
 
+* [Node.js](https://nodejs.org/es/), best installed with [NVM](https://github.com/creationix/nvm).
 * Docker for [Windows](https://docs.docker.com/docker-for-windows), [macOS](https://docs.docker.com/docker-for-mac) or [Linux](https://docs.docker.com/engine/installation/linux)
 * [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
 
