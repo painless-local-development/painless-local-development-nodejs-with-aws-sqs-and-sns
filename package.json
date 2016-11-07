@@ -1,0 +1,28 @@
+{
+  "name": "painless-local-development-nodejs-with-aws-sqs-and-sns",
+  "version": "1.0.0",
+  "description": "A minimalistic repo to show how to locally develop with AWS SQS and SNS in Node.js",
+  "main": "src/index.js",
+  "scripts": {
+    "start":"node src",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://Pelirrojo@github.com/painless-local-development/painless-local-development-nodejs-with-aws-sqs-and-sns.git"
+  },
+  "keywords": [
+    "nodejs",
+    "docker",
+    "devlab"
+  ],
+  "author": "Pelirrojo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/painless-local-development/painless-local-development-nodejs-with-aws-sqs-and-sns/issues"
+  },
+  "homepage": "https://github.com/painless-local-development/painless-local-development-nodejs-with-aws-sqs-and-sns#readme",
+  "dependencies": {
+    "aws-sdk": "^2.6.15"
+  }
+}
