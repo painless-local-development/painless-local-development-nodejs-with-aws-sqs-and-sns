@@ -1,0 +1,23 @@
+from: mhart/alpine-node:6.2
+services:
+  - airdock/fake-sqs:latest:
+      name: elasticsearch
+      persist: false
+      expose:
+        - 4568:4568
+  - airdock/fake-sns:latest:
+      name: dynamodb
+      persist: false
+      expose:
+        - 9292:9292
+expose:
+  - 2000:2000
+env:
+  - LOCAL_HOME=${HOME}
+quiet: false
+forward: true
+tasks:
+  env: env
+  install: npm install
+  start: npm start
+  test: npm test
